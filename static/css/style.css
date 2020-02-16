@@ -68,9 +68,8 @@ a {
 
 .cp_navi {
     background-color: #ffffff;
-    border: 1px solid #dedede;
+    border: 1px solid #ffffff;
     border-radius: 4px;
-    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
     color: #888888;
     display: block;
     top: 0;
@@ -167,10 +166,28 @@ a {
 
 /*スライダー-------------------------------------------*/
 
-#slider1 {
-    top: 10px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+#slider3 {
+    display: block;
+    padding-top: 30px;
+}
+
+
+/*サムネイル-------------------------------------------*/
+
+.pickup {
+    background-color: #001111;
+    margin-top: 40px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.pickup>ul>li:nth-child(3n+1) {
+    clear: both;
+    display: flex;
+}
+
+.pickup>ul>li {
+    width: 33%;
+    height: 33%;
+    float: left;
 }
