@@ -16,16 +16,12 @@
     <link rel="stylesheet" href="static/css/slider-pro.min.css">
     <script src="static/js/jquery.sliderPro.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $('#slider3').sliderPro();
-        });
-    </script>
 
     <script>
         $(document).ready(function($) {
             $('#slider3').sliderPro({
-                width: '100%',
+                width: '900',
+                height: '100px',
                 arrows: true,
                 buttons: true,
                 aspectRatio: 1.5,
@@ -69,6 +65,7 @@
         </div>
         <!--グローバルメニュー-->
 
+
         <div id="slider3" class="slider_pro">
             <div class="sp-slides">
                 <div class="sp-slide">
@@ -83,6 +80,11 @@
             </div>
         </div>
         <!--スライダー-->
+
+        <h2 class="headline">
+            <span>model</span>
+        </h2>
+
 
         <div class="pickup">
             <ul>
@@ -144,10 +146,34 @@
                             <span class="pu_title">最新イベント情報</span> ”最新イベントを随時更新中”
                             <br>"ぜひ一度ご来店下さい"
                         </div>
+                        <div style="clear: both;"></div>
                     </a>
                 </li>
             </ul>
         </div>
+        <!--サムネイル-->
+
+        <div class="module-grid">
+            <h3 class="module-headline">
+                <span>information</span>
+            </h3>
+            <div class="model">
+                <a href=""><img src="static/image/ferrari-458.jpg" class="test" alt="サンプル画像">
+                    <div class="text"><span>モデル比較</span></div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="static/image/porsche.jpg" class="test2" alt="サンプル画像"></a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="static/image/bmw.jpg" class="test3" alt="サンプル画像"></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
 
     </div>
 
